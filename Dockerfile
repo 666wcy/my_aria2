@@ -25,7 +25,7 @@ ENV S6_BEHAVIOUR_IF_STAGE2_FAILS=1 \
     UPDATE_TRACKERS=true \
     CUSTOM_TRACKER_URL= \
     LISTEN_PORT=6888 \
-    RPC_PORT=6800 \
+    RPC_PORT=$PORT \
     RPC_SECRET= \
     PUID= PGID= \
     DISK_CACHE= \
@@ -33,11 +33,5 @@ ENV S6_BEHAVIOUR_IF_STAGE2_FAILS=1 \
     UMASK_SET= \
     SPECIAL_MODE=
 
-EXPOSE \
-    6800 \
-    6888 \
-    6888/udp
 
-VOLUME \
-    /config \
-    /downloads
+CMD tail -f /dev/null
