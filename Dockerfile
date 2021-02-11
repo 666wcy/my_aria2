@@ -2,7 +2,6 @@ FROM ubuntu
 
 
 COPY root /
-COPY upload /upload/
 RUN apt-get update
 RUN apt-get install sudo
 RUN sudo apt-get update
