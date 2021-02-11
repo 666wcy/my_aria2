@@ -5,23 +5,22 @@
 	"keywords": ["telegram"],
 	"stack": "container",
 	"env": {
-			"Rclone": {
-				"description": "rclone",
+			"Remote": {
+				"description": "Remote",
 				"value": ""
 			},
 			"Secret": {
 				"description": "Secret",
 				"value": ""
 			},
-			"Remote": {
-				"description": "Remote",
+			"Rclone": {
+				"description": "Rclone",
 				"value": ""
 			},
 			"Upload": {
 				"description": "Upload",
 				"value": ""
 			}
-
 		}
-
+	
 }
