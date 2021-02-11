@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+touch /root/.aria2/aria2.session
 chmod 0777 /root/.aria2/ -R
 mkdir /.config/
 mkdir /.config/rclone
