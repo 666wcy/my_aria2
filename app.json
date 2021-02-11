@@ -4,5 +4,24 @@
 	"repository": "https://github.com/666wcy/seach_photo-telegram-bot-heroku",
 	"keywords": ["telegram"],
 	"stack": "container"
-		
+	"env": {
+			"Rclone": {
+				"description": "rclone",
+				"value": ""
+			},
+			"Secret": {
+				"description": "Secret",
+				"value": ""
+			},
+			"Remote": {
+				"description": "Remote",
+				"value": ""
+			},
+			"Upload": {
+				"description": "Upload",
+				"value": ""
+			}
+
+		}
+
 }
