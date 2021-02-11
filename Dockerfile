@@ -5,7 +5,7 @@ COPY root /
 RUN apt-get update
 RUN apt-get install sudo
 RUN sudo apt-get update
-RUN apt-get install aria2
+RUN apt-get install aria2 -y
 
 
 RUN sudo chmod 777 /rclone
