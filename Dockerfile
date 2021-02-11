@@ -7,6 +7,8 @@ RUN apt-get update
 RUN apt-get install sudo
 RUN sudo apt-get update
 RUN apt-get install aria2 -y
+RUN apt install wget -y
+RUN apt install curl -y
 
 RUN mkdir /root/.aria2
 COPY config /root/.aria2/
